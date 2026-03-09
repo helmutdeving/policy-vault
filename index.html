@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PolicyVault — On-Chain AI Treasury Guard</title>
+<style>
+  body { margin: 0; background: #0d1117; color: #c9d1d9; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+  .container { max-width: 860px; margin: 40px auto; padding: 0 20px; }
+  h1 { color: #58a6ff; font-size: 1.8rem; margin-bottom: 4px; }
+  .subtitle { color: #8b949e; margin-bottom: 32px; font-size: 0.95rem; }
+  video { width: 100%; border-radius: 8px; border: 1px solid #30363d; }
+  .badges { margin: 20px 0; display: flex; gap: 8px; flex-wrap: wrap; }
+  .badges img { height: 20px; }
+  .links { margin-top: 24px; display: flex; gap: 16px; }
+  a { color: #58a6ff; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .stats { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px 20px; margin-top: 24px; }
+  .stats h2 { font-size: 1rem; color: #8b949e; text-transform: uppercase; letter-spacing: 0.05em; margin: 0 0 12px; }
+  .stat-row { display: flex; gap: 32px; flex-wrap: wrap; }
+  .stat { }
+  .stat .val { font-size: 1.6rem; font-weight: 700; color: #3fb950; }
+  .stat .label { font-size: 0.8rem; color: #8b949e; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>PolicyVault</h1>
+  <p class="subtitle">On-Chain AI Treasury Guard — deployed on Moonbase Alpha (Polkadot EVM)</p>
+
+  <video controls autoplay muted loop>
+    <source src="policy-vault-demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <div class="badges">
+    <img src="https://img.shields.io/badge/tests-67%20passing-brightgreen" alt="67 tests">
+    <img src="https://img.shields.io/badge/coverage-100%25%20stmts-brightgreen" alt="100% coverage">
+    <img src="https://img.shields.io/badge/solidity-0.8.24-blue" alt="Solidity">
+    <img src="https://img.shields.io/badge/deployed-Moonbase%20Alpha-purple" alt="Deployed">
+  </div>
+
+  <div class="stats">
+    <h2>At a glance</h2>
+    <div class="stat-row">
+      <div class="stat"><div class="val">67</div><div class="label">Tests passing</div></div>
+      <div class="stat"><div class="val">100%</div><div class="label">Statement coverage</div></div>
+      <div class="stat"><div class="val">320</div><div class="label">Lines of Solidity</div></div>
+      <div class="stat"><div class="val">3</div><div class="label">Policy decisions</div></div>
+    </div>
+  </div>
+
+  <div class="stats" style="margin-top:16px;">
+    <h2>Deployed Contract</h2>
+    <p style="margin:0;font-family:monospace;font-size:0.9rem;">
+      <strong>Network:</strong> Moonbase Alpha (Moonbeam, Polkadot EVM, Chain ID 1287)<br>
+      <strong>Address:</strong> <a href="https://moonbase.moonscan.io/address/0x03aa22ACF41a19F3b1593332DdbD8D3C4682f290" target="_blank">0x03aa22ACF41a19F3b1593332DdbD8D3C4682f290</a><br>
+      <strong>Vault funded:</strong> 0.2 DEV (policy enforcement is live)
+    </p>
+  </div>
+
+  <div class="links">
+    <a href="https://github.com/helmutdeving/policy-vault" target="_blank">GitHub →</a>
+    <a href="https://moonbase.moonscan.io/address/0x03aa22ACF41a19F3b1593332DdbD8D3C4682f290" target="_blank">Moonscan Explorer →</a>
+  </div>
+</div>
+</body>
+</html>
