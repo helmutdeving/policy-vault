@@ -5,7 +5,8 @@
 [![Tests](https://img.shields.io/badge/tests-67%20passing-brightgreen)](https://github.com/helmutdeving/policy-vault)
 [![Coverage](https://img.shields.io/badge/coverage-100%25%20stmts-brightgreen)](https://github.com/helmutdeving/policy-vault)
 [![Solidity](https://img.shields.io/badge/solidity-0.8.24-blue)](https://soliditylang.org)
-[![Network](https://img.shields.io/badge/network-Moonbase%20Alpha-purple)](https://docs.moonbeam.network/builders/get-started/networks/moonbase/)
+[![Network](https://img.shields.io/badge/network-Moonbase%20Alpha-purple)](https://moonbase.moonscan.io/address/0x03aa22ACF41a19F3b1593332DdbD8D3C4682f290)
+[![Deployed](https://img.shields.io/badge/deployed-0x03aa...f290-green)](https://moonbase.moonscan.io/address/0x03aa22ACF41a19F3b1593332DdbD8D3C4682f290)
 
 ## What is PolicyVault?
 
@@ -64,8 +65,8 @@ event TxCancelled(uint256 indexed txId, address indexed canceller, string reason
 
 Moonbeam is a Polkadot parachain with full EVM compatibility.
 
-**Deployed contract**: `TBD` (see [deployment.json](./deployment.json) after deploy)
-**Explorer**: [Moonbase Moonscan](https://moonbase.moonscan.io)
+**Deployed contract**: [`0x03aa22ACF41a19F3b1593332DdbD8D3C4682f290`](https://moonbase.moonscan.io/address/0x03aa22ACF41a19F3b1593332DdbD8D3C4682f290)
+**Explorer**: [View on Moonbase Moonscan](https://moonbase.moonscan.io/address/0x03aa22ACF41a19F3b1593332DdbD8D3C4682f290)
 
 Network configuration:
 - RPC: `https://rpc.api.moonbase.moonbeam.network`
